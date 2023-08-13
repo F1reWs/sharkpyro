@@ -1,12 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='sharkpyro',
-    version='1.4.3',
+    version='1.4.4',
     description='Pyrogram fork for SharkUserBot',
     author="Dan",
     author_email="dan@pyrogram.org",
-    packages=['sharkpyro'],
+    packages=find_packages(),
     install_requires=[
         'tgcrypto',
     ],
